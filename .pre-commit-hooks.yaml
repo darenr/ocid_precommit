@@ -1,7 +1,7 @@
 -   id: ocid_precommit
     name: ocid-precommit
     description: Check for ocids in precommit hook
-    entry: ocid_precommit_check
+    entry: ocid_precommit
     language: python
     language_version: python3
     files: '\.(rst|md|markdown|py|tex)$'
