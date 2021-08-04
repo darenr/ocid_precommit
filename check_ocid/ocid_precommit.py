@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 
+import sys
+
 print("ocid_precommit.py")
 
 def main():
     print("HERE")
-    return
+    return True
 
 
 if __name__ == "__main__":
