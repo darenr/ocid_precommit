@@ -1,6 +1,6 @@
 from setuptools import setup
 
 setup(
-    scripts=["ocid_precommit"],
+    scripts=["ocid_precommit.py"],
 )
 
