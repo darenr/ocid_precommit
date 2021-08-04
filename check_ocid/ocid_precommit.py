@@ -7,5 +7,10 @@ def main():
     return
 
 
-if __name__ == '__main__':
-    exit(main())
+if __name__ == "__main__":
+    rc = main()
+    if not rc:
+        print("Overall result: fail", file=sys.stderr)
+        sys.exit(1)
+    else:
+        sys.exit(0)

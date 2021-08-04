@@ -1,3 +1,4 @@
+---
 -   id: ocid_precommit
     name: ocid-precommit
     description: Check for ocids in precommit hook
